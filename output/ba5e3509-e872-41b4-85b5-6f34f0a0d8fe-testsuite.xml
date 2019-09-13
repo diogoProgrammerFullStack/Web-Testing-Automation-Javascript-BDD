@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1568398007505' stop='1568398044633'>
+    <name>Pesquisa Google @pesquisa_google</name>
+    <title>Pesquisa Google @pesquisa_google</title>
+    <test-cases>
+        <test-case start='1568398007506' status='passed' stop='1568398044502'>
+            <name>Pesquisa codecept google @teste01</name>
+            <title>Pesquisa codecept google @teste01</title>
+            <labels>
+                <label name='tag' value='@pesquisa_google'/>
+                <label name='tag' value='@teste01'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1568398011895' status='passed' stop='1568398035218'>
+                    <name>Given que estou na tela do google </name>
+                    <title>Given que estou na tela do google </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1568398011895' status='passed' stop='1568398035218'>
+                            <name>Eu estou na pagina "/"</name>
+                            <title>Eu estou na pagina "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step Eu estou na pagina "/"' source='2ba1ce28-5124-4147-b252-51cae767f223-attachment.png' type='image/png' size='26895'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1568398035218' status='passed' stop='1568398043687'>
+                    <name>When pesquiso "Codeceptjs" </name>
+                    <title>When pesquiso "Codeceptjs" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1568398035219' status='passed' stop='1568398043686'>
+                            <name>Object: pesquisa_algo </name>
+                            <title>Object: pesquisa_algo </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1568398035219' status='passed' stop='1568398035809'>
+                                    <name>Eu preencho o campo "#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input", "Codeceptjs"</name>
+                                    <title>Eu preencho o campo "#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input", "Codeceptjs"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step Eu preencho o campo "#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input", "Codeceptjs"' source='a0bb3de0-9bea-4cde-820b-2569e61ae700-attachment.png' type='image/png' size='27921'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1568398035809' status='passed' stop='1568398038378'>
+                                    <name>Eu pressione a tecla "Enter"</name>
+                                    <title>Eu pressione a tecla "Enter"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step Eu pressione a tecla "Enter"' source='a6d411b7-ea24-425f-b501-774d7f7dc52b-attachment.png' type='image/png' size='87565'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1568398038378' status='passed' stop='1568398043686'>
+                                    <name>Eu aguardo 5</name>
+                                    <title>Eu aguardo 5</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step Eu aguardo 5' source='25ca9f4d-ea91-4a73-be4b-ec412817317c-attachment.png' type='image/png' size='87565'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1568398043687' status='passed' stop='1568398044502'>
+                    <name>Then deve exibir "Codecept" </name>
+                    <title>Then deve exibir "Codecept" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1568398043687' status='passed' stop='1568398044502'>
+                            <name>Eu vejo "Codecept"</name>
+                            <title>Eu vejo "Codecept"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step Eu vejo "Codecept"' source='ab3d2b3b-e610-42dc-9cc3-56486ddb9b58-attachment.png' type='image/png' size='87565'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

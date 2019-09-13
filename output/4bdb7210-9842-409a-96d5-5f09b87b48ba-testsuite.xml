@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1568397832261' stop='1568397866289'>
+    <name>Pesquisa Google dois @pesquisa_google_dois</name>
+    <title>Pesquisa Google dois @pesquisa_google_dois</title>
+    <test-cases>
+        <test-case start='1568397838366' status='failed' stop='1568397865292'>
+            <name>Pesquisa codecept google dois @teste01</name>
+            <title>Pesquisa codecept google dois @teste01</title>
+            <labels>
+                <label name='tag' value='@pesquisa_google_dois'/>
+                <label name='tag' value='@teste01'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1568397844146' status='failed' stop='1568397865292'>
+                    <name>Given que estou na tela do google </name>
+                    <title>Given que estou na tela do google </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1568397844146' status='passed' stop='1568397865291'>
+                            <name>Eu estou na pagina "/"</name>
+                            <title>Eu estou na pagina "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step Eu estou na pagina "/"' source='5d513f0a-44c2-45c6-80fc-245edecb2508-attachment.png' type='image/png' size='26860'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='06246c1b-a575-4d85-ae50-fa9ab6692258-attachment.png' type='image/png' size='26895'/>
+            </attachments>
+            <failure>
+                <message>txt is not defined</message>
+                <stack-trace>ReferenceError: txt is not defined
+                    at When (C:\Users\djuliao\Desktop\codecept-web\step_definitions\steps_dois.js:11:30)
+                    at runSteps (C:\Users\djuliao\Desktop\codecept-web\node_modules\codeceptjs\lib\interfaces\gherkin.js:45:15)
+                    at process.internalTickCallback (internal/process/next_tick.js:77:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

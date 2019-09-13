@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1568397964427' stop='1568398007412'>
+    <name>Pesquisa Google dois @pesquisa_google_dois</name>
+    <title>Pesquisa Google dois @pesquisa_google_dois</title>
+    <test-cases>
+        <test-case start='1568397969647' status='passed' stop='1568398007282'>
+            <name>Pesquisa codecept google dois @teste01</name>
+            <title>Pesquisa codecept google dois @teste01</title>
+            <labels>
+                <label name='tag' value='@pesquisa_google_dois'/>
+                <label name='tag' value='@teste01'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1568397974906' status='passed' stop='1568397997493'>
+                    <name>Given que estou na tela do google </name>
+                    <title>Given que estou na tela do google </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1568397974906' status='passed' stop='1568397997493'>
+                            <name>Eu estou na pagina "/"</name>
+                            <title>Eu estou na pagina "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step Eu estou na pagina "/"' source='e647cb53-8c8a-4ba2-8429-11c277eea937-attachment.png' type='image/png' size='26895'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1568397997493' status='passed' stop='1568398006143'>
+                    <name>When pesquiso "Javascript" </name>
+                    <title>When pesquiso "Javascript" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1568397997493' status='passed' stop='1568398006143'>
+                            <name>Object: pesquisa_algo </name>
+                            <title>Object: pesquisa_algo </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1568397997493' status='passed' stop='1568397998040'>
+                                    <name>Eu preencho o campo "#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input", "Javascript"</name>
+                                    <title>Eu preencho o campo "#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input", "Javascript"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step Eu preencho o campo "#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input", "Javascript"' source='6f9ec747-684c-43ef-8846-59c9f84da794-attachment.png' type='image/png' size='27726'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1568397998040' status='passed' stop='1568398000813'>
+                                    <name>Eu pressione a tecla "Enter"</name>
+                                    <title>Eu pressione a tecla "Enter"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step Eu pressione a tecla "Enter"' source='c318de13-5ffe-4d45-b004-9c8b97ac7550-attachment.png' type='image/png' size='160051'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1568398000813' status='passed' stop='1568398006143'>
+                                    <name>Eu aguardo 5</name>
+                                    <title>Eu aguardo 5</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step Eu aguardo 5' source='26f7bce9-6841-4cdb-865c-23e800bbee79-attachment.png' type='image/png' size='160051'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1568398006143' status='passed' stop='1568398007282'>
+                    <name>Then deve exibir "Javascript" </name>
+                    <title>Then deve exibir "Javascript" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1568398006143' status='passed' stop='1568398007282'>
+                            <name>Eu vejo "Javascript"</name>
+                            <title>Eu vejo "Javascript"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step Eu vejo "Javascript"' source='7c9f1222-35f4-4f3d-97ae-075b6626df4e-attachment.png' type='image/png' size='160051'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
